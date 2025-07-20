@@ -1,6 +1,6 @@
  
 🎵 Spotify App Test Suite
-This repository contains a set of automated tests for validating key functionality of the Music App, including song search, artist search, playlist management, and album interactions. 
+This repository contains a set of automated tests for validating key functionality of the  App, including song search, artist search, playlist management, and album interactions. 
 
 Since Spotify uses 0auth you need to save cookies in a folder auth. Inside this directory save cookies with auth.json
 For the first login time run use the following command: 

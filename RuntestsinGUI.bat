@@ -1,0 +1,3 @@
+@echo off
+echo Launching Playwright UI...
+call npx playwright test --ui
