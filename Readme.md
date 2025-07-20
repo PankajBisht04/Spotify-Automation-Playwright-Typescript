@@ -13,15 +13,16 @@ Spotify Account
 Node.js: v22.17.1
 Version: 5.8.3
 Playwright: Version 1.54.1
+VSCode
 
 To create tests use: 
 `npx playwright codegen --load-storage=auth/auth.json https://open.spotify.com`
 
 To run tests in cmd use:
-`npx playwright test` 
+`npx playwright test` or run the Runtest in cmd.bat file
 
 To run tests in gui use:
-`npx playwright test --ui`
+`npx playwright test --ui` or run the runtestinGUI.bat file
 
 Tests cases are stored inside tests folder.
 Configuration can be done via playwright.config.ts.
